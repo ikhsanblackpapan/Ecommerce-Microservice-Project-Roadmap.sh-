@@ -1,0 +1,16 @@
+# Dependency folders
+node_modules/
+vendor/
+
+# Environment variables (SANGAT PENTING: Jangan upload .env asli!)
+.env
+*.env
+
+# Docker logs & storage
+docker-data/
+*.log
+
+# OS / Editor Files
+.DS_Store
+.vscode/
+.idea/

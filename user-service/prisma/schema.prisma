@@ -1,0 +1,20 @@
+datasource db {
+  provider = "mysql"
+  // Properti url di sini sudah dihapus sesuai aturan Prisma 7
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  name      String
+  email     String   @unique
+  password  String
+  role      String   @default("customer")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("users")
+}
