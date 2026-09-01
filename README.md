@@ -1,5 +1,7 @@
 # 🛒 Microservices E-Commerce System
 
+> Project Roadmap URL: https://roadmap.sh/projects/scalable-ecommerce-platform
+
 Sistem backend e-commerce berbasis arsitektur **Microservices** modern dengan pendekatan **Polyglot Architecture**, **Event-Driven Messaging**, dan **Containerization**.
 
 ---
